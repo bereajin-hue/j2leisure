@@ -14,12 +14,20 @@ export default function Footer() {
             </span>
             <span>대표전화 010-8200-4994 · 제휴문의 bereajin@gmail.com</span>
           </div>
-          <a
-            href="/privacy/"
-            className="font-semibold text-white/80 underline-offset-2 hover:text-white hover:underline"
-          >
-            개인정보처리방침
-          </a>
+          <div className="flex items-center gap-4">
+            <a
+              href="/privacy/"
+              className="font-semibold text-white/80 underline-offset-2 hover:text-white hover:underline"
+            >
+              개인정보처리방침
+            </a>
+            <a
+              href="/terms/"
+              className="font-semibold text-white/80 underline-offset-2 hover:text-white hover:underline"
+            >
+              이용약관
+            </a>
+          </div>
         </div>
         <span className="border-t border-white/10 pt-4 text-white/40">
           &copy; {year} JJ Leisure Development Co., Ltd. All rights reserved.
