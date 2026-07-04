@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 
 const slides = [
-  { src: '/images/hero/camping.svg', alt: '캠핑장' },
-  { src: '/images/hero/skywatershow.svg', alt: '제주 스카이워터쇼' },
-  { src: '/images/hero/glamping.svg', alt: '글램핑' },
+  { src: '/images/hero/camping.jpg', alt: '캠핑장' },
+  { src: '/images/hero/skywatershow.jpg', alt: '제주 스카이워터쇼' },
+  { src: '/images/hero/glamping.jpg', alt: '글램핑' },
 ];
 
 export default function Hero() {
