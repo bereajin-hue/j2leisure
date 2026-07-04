@@ -17,9 +17,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-navy-100 bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20 sm:px-10">
-        <a href="#" className="flex items-baseline gap-1.5 text-navy-900">
-          <span className="font-serif text-xl font-extrabold italic sm:text-2xl">JJ</span>
-          <span className="text-base font-bold sm:text-lg">제이투레저개발(주)</span>
+        <a href="#" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/logo/logo.svg"
+            alt="제이투레저개발(주)"
+            className="h-7 w-auto sm:h-8"
+          />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
