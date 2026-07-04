@@ -14,7 +14,7 @@ export default function Footer() {
           <span>대표전화 010-8200-4994 · 제휴문의 bereajin@gmail.com</span>
         </div>
         <span className="text-white/40">
-          &copy; {year} J2Leisure Development Co., Ltd. All rights reserved.
+          &copy; {year} JJ Leisure Development Co., Ltd. All rights reserved.
         </span>
       </div>
     </footer>
