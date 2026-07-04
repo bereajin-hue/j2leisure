@@ -4,22 +4,21 @@ interface Partner {
   logo?: string;
 }
 
-// 공식 브랜드 로고 원본이 준비되면 public/images/partners/ 파일을 교체해주세요.
 const partners: Partner[] = [
   {
     name: 'Naver',
     description: '네이버플레이스 서비스 공식 운영대행',
-    logo: '/images/partners/naver.svg',
+    logo: '/images/partners/naver.png',
   },
   {
     name: '인천e몰',
     description: '레저 카테고리 전담 판매운영사',
-    logo: '/images/partners/incheon-emall.svg',
+    logo: '/images/partners/incheon-emall.png',
   },
   {
     name: '유니버스코리아',
     description: '복지몰·폐쇄몰 상품 유통 및 판매 대행 파트너',
-    logo: '/images/partners/universe-korea.svg',
+    logo: '/images/partners/universe-korea.png',
   },
 ];
 
