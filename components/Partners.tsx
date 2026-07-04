@@ -2,6 +2,7 @@ interface Partner {
   name: string;
   description: string;
   logo?: string;
+  logoClassName?: string;
 }
 
 const partners: Partner[] = [
@@ -19,6 +20,7 @@ const partners: Partner[] = [
     name: '유니버스코리아',
     description: '복지몰·폐쇄몰 상품 유통 및 판매 대행 파트너',
     logo: '/images/partners/universe-korea.png',
+    logoClassName: 'max-h-[72px]',
   },
 ];
 
@@ -41,13 +43,13 @@ export default function Partners() {
               key={partner.name}
               className="flex flex-col items-center gap-4 rounded-2xl bg-white p-8 text-center shadow-sm ring-1 ring-navy-100"
             >
-              <div className="flex h-16 w-full items-center justify-center rounded-lg bg-white ring-1 ring-navy-100">
+              <div className="flex h-20 w-full items-center justify-center rounded-lg bg-white ring-1 ring-navy-100">
                 {partner.logo ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
                     src={partner.logo}
                     alt={`${partner.name} 로고`}
-                    className="max-h-12 max-w-[80%] object-contain"
+                    className={`max-w-[80%] object-contain ${partner.logoClassName ?? 'max-h-12'}`}
                   />
                 ) : (
                   <span className="text-lg font-bold text-navy-800">
