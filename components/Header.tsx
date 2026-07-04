@@ -20,7 +20,7 @@ export default function Header() {
         <a href="#" className="flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/logo/logo.svg"
+            src="/images/logo/logo.jpg"
             alt="제이투레저개발(주)"
             className="h-7 w-auto sm:h-8"
           />
