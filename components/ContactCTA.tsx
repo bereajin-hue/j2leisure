@@ -43,7 +43,7 @@ export default function ContactCTA() {
   return (
     <section
       id="contact"
-      className="bg-navy-900 px-6 py-20 text-white sm:px-10 sm:py-28"
+      className="scroll-mt-16 bg-navy-900 px-6 py-20 text-white sm:scroll-mt-20 sm:px-10 sm:py-28"
     >
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-20">
         <div className="flex flex-col gap-6">

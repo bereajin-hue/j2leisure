@@ -35,7 +35,7 @@ const services: Service[] = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-navy-50 px-6 py-20 sm:px-10 sm:py-28">
+    <section id="services" className="scroll-mt-16 bg-navy-50 px-6 py-20 sm:scroll-mt-20 sm:px-10 sm:py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 flex flex-col gap-3 sm:mb-16">
           <span className="text-sm font-semibold uppercase tracking-widest text-accent">

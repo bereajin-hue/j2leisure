@@ -1,13 +1,38 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
+const slides = [
+  { src: '/images/hero/camping.svg', alt: '캠핑장' },
+  { src: '/images/hero/skywatershow.svg', alt: '제주 스카이워터쇼' },
+  { src: '/images/hero/glamping.svg', alt: '글램핑' },
+];
+
 export default function Hero() {
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % slides.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
-    <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-gradient-to-br from-navy-950 via-navy-800 to-navy-600 px-6 py-24 text-white sm:px-10">
-      <div
-        className="pointer-events-none absolute inset-0 opacity-20"
-        style={{
-          backgroundImage:
-            'radial-gradient(circle at 20% 20%, rgba(14,159,110,0.35), transparent 45%), radial-gradient(circle at 80% 70%, rgba(83,111,167,0.35), transparent 45%)',
-        }}
-      />
+    <section className="relative flex min-h-[100svh] items-center overflow-hidden px-6 py-24 text-white sm:px-10">
+      <div className="absolute inset-0">
+        {slides.map((slide, i) => (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            key={slide.src}
+            src={slide.src}
+            alt={slide.alt}
+            className="absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ease-in-out"
+            style={{ opacity: i === current ? 1 : 0 }}
+          />
+        ))}
+        <div className="absolute inset-0 bg-navy-950/55" />
+      </div>
 
       <div className="relative mx-auto flex w-full max-w-5xl flex-col items-start gap-6">
         <span className="rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-sm font-medium tracking-wide text-white/80">
@@ -29,6 +54,20 @@ export default function Hero() {
         >
           제휴 문의하기
         </a>
+
+        <div className="mt-2 flex gap-2">
+          {slides.map((slide, i) => (
+            <button
+              key={slide.src}
+              type="button"
+              aria-label={`${slide.alt} 슬라이드로 이동`}
+              onClick={() => setCurrent(i)}
+              className={`h-1.5 rounded-full transition-all ${
+                i === current ? 'w-8 bg-white' : 'w-4 bg-white/40'
+              }`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80" viewBox="0 0 240 80">
+  <circle cx="34" cy="40" r="26" fill="none" stroke="#1f2d4b" stroke-width="2.5"/>
+  <ellipse cx="34" cy="40" rx="26" ry="10" fill="none" stroke="#0e9f6e" stroke-width="2"/>
+  <ellipse cx="34" cy="40" rx="10" ry="26" fill="none" stroke="#0e9f6e" stroke-width="2"/>
+  <text x="72" y="35" font-family="Arial, 'Nanum Gothic', sans-serif" font-size="19" font-weight="800" fill="#1f2d4b">UNIVERSE</text>
+  <text x="72" y="58" font-family="Arial, 'Nanum Gothic', sans-serif" font-size="19" font-weight="800" fill="#0e9f6e">KOREA</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80" viewBox="0 0 240 80">
+  <g>
+    <polygon points="4,26 24,26 20,44 0,44" fill="#e53935"/>
+    <polygon points="24,26 44,26 44,44 20,44" fill="#f2f2f2"/>
+    <polygon points="44,26 64,26 68,44 48,44" fill="#e53935"/>
+    <polygon points="64,26 84,26 84,44 68,44" fill="#f2f2f2"/>
+    <rect x="4" y="10" width="80" height="18" rx="4" fill="#ffffff" stroke="#d0d0d0" stroke-width="1.5"/>
+  </g>
+  <path d="M16 15 q4 -4 8 0 q4 4 8 0" fill="none" stroke="#f2a33c" stroke-width="2" stroke-linecap="round"/>
+  <text x="98" y="34" font-family="Arial, 'Nanum Gothic', sans-serif" font-size="22" font-weight="800" fill="#2f6fb5">인천</text>
+  <text x="152" y="34" font-family="Arial, 'Nanum Gothic', sans-serif" font-size="22" font-weight="800" fill="#f2a33c">e</text>
+  <text x="164" y="34" font-family="Arial, 'Nanum Gothic', sans-serif" font-size="22" font-weight="800" fill="#2f6fb5">몰</text>
+  <text x="18" y="66" font-family="Arial, 'Nanum Gothic', sans-serif" font-size="12" fill="#8a8a8a">Incheon e-Mall</text>
+</svg>

@@ -28,7 +28,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        pretendard: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+        nanum: ['"Nanum Gothic"', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
       },
     },
   },
