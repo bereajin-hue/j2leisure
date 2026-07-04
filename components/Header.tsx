@@ -22,7 +22,7 @@ export default function Header() {
           <img
             src="/images/logo/logo.jpg"
             alt="제이투레저개발(주)"
-            className="h-7 w-auto sm:h-8"
+            className="h-9 w-auto sm:h-11"
           />
         </a>
 
