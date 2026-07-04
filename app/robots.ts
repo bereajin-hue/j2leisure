@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://j2leisure.agentt.kr/sitemap.xml',
+    sitemap: 'https://j2.agentt.kr/sitemap.xml',
   };
 }

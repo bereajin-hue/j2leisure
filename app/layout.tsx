@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const siteUrl = 'https://j2leisure.agentt.kr';
+const siteUrl = 'https://j2.agentt.kr';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
