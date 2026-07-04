@@ -22,5 +22,5 @@
   </g>
   <circle cx="1150" cy="700" r="34" fill="#e0793a"/>
   <circle cx="1150" cy="700" r="20" fill="#f2b23a"/>
-  <text x="80" y="820" font-family="'Nanum Gothic', sans-serif" font-size="42" font-weight="700" fill="#ffffff" opacity="0.9">캠핑장 운영 대행</text>
+  <text x="80" y="820" font-family="'Nanum Myeongjo', sans-serif" font-size="42" font-weight="700" fill="#ffffff" opacity="0.9">캠핑장 운영 대행</text>
 </svg>

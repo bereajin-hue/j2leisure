@@ -22,5 +22,5 @@
     <line x1="1070" y1="570" x2="1070" y2="660" stroke="#b7a878" stroke-width="3"/>
   </g>
   <circle cx="1300" cy="200" r="60" fill="#f4e9c9" opacity="0.9"/>
-  <text x="80" y="820" font-family="'Nanum Gothic', sans-serif" font-size="42" font-weight="700" fill="#ffffff" opacity="0.9">글램핑 리조트</text>
+  <text x="80" y="820" font-family="'Nanum Myeongjo', sans-serif" font-size="42" font-weight="700" fill="#ffffff" opacity="0.9">글램핑 리조트</text>
 </svg>

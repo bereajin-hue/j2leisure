@@ -28,7 +28,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        nanum: ['"Nanum Gothic"', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+        nanum: ['"Nanum Myeongjo"', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'serif'],
       },
     },
   },
