@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import { Wrench, Settings, ShoppingBag, Megaphone, ArrowRight } from 'lucide-react';
 
 const steps = [
@@ -29,12 +30,12 @@ export default function About() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+        <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start sm:justify-center sm:gap-3">
           {steps.map((step, i) => {
             const Icon = step.icon;
             return (
-              <div key={step.label} className="flex items-center gap-4 sm:flex-col sm:gap-3">
-                <div className="flex flex-col items-center gap-3">
+              <Fragment key={step.label}>
+                <div className="flex flex-col items-center gap-3 sm:w-20">
                   <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-navy-50 text-navy-700 ring-1 ring-navy-100">
                     <Icon size={32} strokeWidth={1.75} />
                   </div>
@@ -44,11 +45,11 @@ export default function About() {
                 </div>
                 {i < steps.length - 1 && (
                   <ArrowRight
-                    className="hidden shrink-0 text-navy-200 sm:block"
+                    className="hidden shrink-0 self-center text-navy-200 sm:block"
                     size={22}
                   />
                 )}
-              </div>
+              </Fragment>
             );
           })}
         </div>
