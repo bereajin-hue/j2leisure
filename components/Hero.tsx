@@ -39,7 +39,7 @@ export default function Hero() {
           제이투레저개발(주)
         </span>
 
-        <h1 className="max-w-3xl text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-6xl">
+        <h1 className="max-w-3xl break-keep text-2xl font-bold leading-tight sm:text-3xl md:text-4xl lg:text-5xl">
           대한민국 관광·레저·유통 파트너를 위한
           <br className="hidden sm:block" /> End-to-End 운영 솔루션
         </h1>
