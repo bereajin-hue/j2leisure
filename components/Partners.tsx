@@ -41,7 +41,7 @@ export default function Partners() {
               key={partner.name}
               className="flex flex-col items-center gap-4 rounded-2xl bg-white p-8 text-center shadow-sm ring-1 ring-navy-100"
             >
-              <div className="flex h-16 w-full items-center justify-center rounded-lg bg-navy-50 ring-1 ring-navy-100">
+              <div className="flex h-16 w-full items-center justify-center rounded-lg bg-white ring-1 ring-navy-100">
                 {partner.logo ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
