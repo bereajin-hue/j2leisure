@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { Phone } from 'lucide-react';
 
 const slides = [
   { src: '/images/hero/camping.jpg', alt: '캠핑장' },
@@ -48,9 +49,10 @@ export default function Hero() {
         </p>
 
         <a
-          href="#contact"
-          className="mt-4 inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-base font-semibold text-white shadow-lg shadow-accent/30 transition-colors hover:bg-accent-dark sm:text-lg"
+          href="tel:010-8200-4994"
+          className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-accent px-8 py-4 text-base font-semibold text-white shadow-lg shadow-accent/30 transition-colors hover:bg-accent-dark sm:text-lg"
         >
+          <Phone size={20} />
           제휴 문의하기
         </a>
 

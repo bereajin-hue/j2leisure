@@ -1,45 +1,6 @@
-'use client';
-
-import { useState, type FormEvent } from 'react';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
-type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
-
 export default function ContactCTA() {
-  const [status, setStatus] = useState<SubmitStatus>('idle');
-
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
-
-    if (!formspreeId) {
-      setStatus('error');
-      return;
-    }
-
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-
-    setStatus('submitting');
-
-    try {
-      const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
-        method: 'POST',
-        headers: { Accept: 'application/json' },
-        body: formData,
-      });
-
-      if (response.ok) {
-        setStatus('success');
-        form.reset();
-      } else {
-        setStatus('error');
-      }
-    } catch {
-      setStatus('error');
-    }
-  };
-
   return (
     <section
       id="contact"
@@ -83,68 +44,28 @@ export default function ContactCTA() {
           </div>
         </div>
 
-        <form
-          onSubmit={handleSubmit}
-          className="flex flex-col gap-4 rounded-2xl bg-white p-8 shadow-xl"
-        >
-          <div className="flex flex-col gap-1.5">
-            <label htmlFor="name" className="text-sm font-medium text-navy-800">
-              이름
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              required
-              className="rounded-lg border border-navy-100 px-4 py-3 text-navy-900 outline-none ring-accent/40 focus:ring-2"
-            />
+        <div className="flex flex-col items-center justify-center gap-6 rounded-2xl bg-white p-10 text-center shadow-xl sm:p-12">
+          <div className="flex h-16 w-16 items-center justify-center rounded-full bg-navy-50 text-accent-dark ring-1 ring-navy-100">
+            <Phone size={30} />
           </div>
-
-          <div className="flex flex-col gap-1.5">
-            <label htmlFor="phone" className="text-sm font-medium text-navy-800">
-              연락처
-            </label>
-            <input
-              id="phone"
-              name="phone"
-              type="tel"
-              required
-              className="rounded-lg border border-navy-100 px-4 py-3 text-navy-900 outline-none ring-accent/40 focus:ring-2"
-            />
+          <div className="flex flex-col gap-2">
+            <p className="text-lg font-bold text-navy-900 sm:text-xl">
+              전화 한 통이면 충분합니다
+            </p>
+            <p className="text-sm leading-relaxed text-navy-600 sm:text-base">
+              제휴·견적 문의는 전화로 편하게 연락 주세요.
+              <br />
+              바로 안내해 드립니다.
+            </p>
           </div>
-
-          <div className="flex flex-col gap-1.5">
-            <label htmlFor="message" className="text-sm font-medium text-navy-800">
-              문의내용
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={4}
-              required
-              className="resize-none rounded-lg border border-navy-100 px-4 py-3 text-navy-900 outline-none ring-accent/40 focus:ring-2"
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={status === 'submitting'}
-            className="mt-2 rounded-full bg-accent px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-accent-dark disabled:opacity-60"
+          <a
+            href="tel:010-8200-4994"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-accent px-8 py-4 text-lg font-bold text-white shadow-lg shadow-accent/30 transition-colors hover:bg-accent-dark sm:text-xl"
           >
-            {status === 'submitting' ? '전송 중...' : '문의 보내기'}
-          </button>
-
-          {status === 'success' && (
-            <p className="text-sm font-medium text-accent-dark">
-              문의가 정상적으로 접수되었습니다. 빠르게 연락드리겠습니다.
-            </p>
-          )}
-          {status === 'error' && (
-            <p className="text-sm font-medium text-red-600">
-              전송에 실패했습니다. 잠시 후 다시 시도해 주세요.
-            </p>
-          )}
-        </form>
+            <Phone size={22} />
+            010-8200-4994
+          </a>
+        </div>
       </div>
     </section>
   );

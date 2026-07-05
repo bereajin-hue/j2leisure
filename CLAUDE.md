@@ -18,7 +18,7 @@
 ## 기술 제약사항
 - Next.js 14 App Router, output: 'export' (완전 정적 사이트)
 - Cloudflare Pages 배포 (서브도메인: j2.agentt.kr)
-- 문의 폼은 Formspree 사용, 자체 백엔드 없음
+- 문의는 전화 연결(tel: 링크)로 처리, 별도 폼/백엔드 없음
 - 이미지는 public/images에 사전 최적화 후 배치 (WebP 우선)
 - 모바일 퍼스트 (레저업 특성상 모바일 트래픽 비중 높음 가정)
 
