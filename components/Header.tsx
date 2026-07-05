@@ -4,11 +4,11 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const navItems = [
-  { label: '회사소개', href: '#about' },
-  { label: '사업분야', href: '#services' },
-  { label: '고객사례', href: '#case-studies' },
-  { label: '사업파트너', href: '#partners' },
-  { label: '문의', href: '#contact' },
+  { label: '회사소개', href: '/#about' },
+  { label: '사업분야', href: '/#services' },
+  { label: '고객사례', href: '/#case-studies' },
+  { label: '사업파트너', href: '/#partners' },
+  { label: '문의', href: '/#contact' },
 ];
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-navy-100 bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20 sm:px-10">
-        <a href="#" className="flex items-center">
+        <a href="/" className="flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/logo/logo.jpg"
