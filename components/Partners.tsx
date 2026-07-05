@@ -15,6 +15,7 @@ const partners: Partner[] = [
     name: '인천e몰',
     description: '인천e몰 레저부문 전담 판매운영사',
     logo: '/images/partners/incheon-emall.png',
+    logoClassName: 'max-h-[62px]',
   },
   {
     name: '유니버스코리아',
