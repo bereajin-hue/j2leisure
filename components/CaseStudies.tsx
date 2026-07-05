@@ -17,7 +17,7 @@ const caseStudies: CaseStudy[] = [
   },
   {
     category: '레저타운',
-    title: '경기 고양시 레저타운 판매·운영 및 마케팅',
+    title: '고양레저타운 판매·운영 및 마케팅',
     image: '/images/case-studies/leisure-town.jpg',
   },
   {
