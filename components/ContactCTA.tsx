@@ -50,7 +50,7 @@ export default function ContactCTA() {
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-lg font-bold text-navy-900 sm:text-xl">
-              전화 한 통이면 충분합니다
+              제휴상담
             </p>
             <p className="text-sm leading-relaxed text-navy-600 sm:text-base">
               제휴·견적 문의는 전화로 편하게 연락 주세요.
@@ -63,7 +63,7 @@ export default function ContactCTA() {
             className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-accent px-8 py-4 text-lg font-bold text-white shadow-lg shadow-accent/30 transition-colors hover:bg-accent-dark sm:text-xl"
           >
             <Phone size={22} />
-            010-8200-4994
+            제휴 문의하기
           </a>
         </div>
       </div>
