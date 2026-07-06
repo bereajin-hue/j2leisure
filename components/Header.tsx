@@ -16,13 +16,13 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-navy-100 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20 sm:px-10">
+      <div className="mx-auto flex h-24 max-w-6xl items-center justify-between px-6 sm:h-28 sm:px-10">
         <a href="/" className="flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/logo/logo.png"
             alt="제이투레저개발(주)"
-            className="h-9 w-auto sm:h-11"
+            className="h-[72px] w-auto sm:h-[88px]"
           />
         </a>
 

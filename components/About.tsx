@@ -10,7 +10,7 @@ const steps = [
 
 export default function About() {
   return (
-    <section id="about" className="scroll-mt-16 bg-white px-6 py-20 sm:scroll-mt-20 sm:px-10 sm:py-28">
+    <section id="about" className="scroll-mt-24 bg-white px-6 py-20 sm:scroll-mt-28 sm:px-10 sm:py-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-14 lg:grid-cols-2 lg:gap-20">
         <div className="flex flex-col gap-6">
           <span className="text-sm font-semibold uppercase tracking-widest text-accent">

@@ -51,7 +51,7 @@ export default function CaseStudies() {
   };
 
   return (
-    <section id="case-studies" className="scroll-mt-16 bg-white px-6 py-20 sm:scroll-mt-20 sm:px-10 sm:py-28">
+    <section id="case-studies" className="scroll-mt-24 bg-white px-6 py-20 sm:scroll-mt-28 sm:px-10 sm:py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 flex flex-col items-start justify-between gap-4 sm:mb-16 sm:flex-row sm:items-end">
           <div className="flex flex-col gap-3">
