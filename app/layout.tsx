@@ -62,7 +62,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body className="font-nanum antialiased">{children}</body>
+      <body className="font-pretendard antialiased">{children}</body>
     </html>
   );
 }

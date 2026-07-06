@@ -28,7 +28,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        nanum: ['"Nanum Myeongjo"', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'serif'],
+        pretendard: ['"Pretendard"', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
       },
     },
   },
