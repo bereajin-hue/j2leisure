@@ -3,8 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: '이용약관 | 제이투레저개발(주)',
-  description: '제이투레저개발(주) 이용약관',
+  title: '이용약관 | 유니버스레저(주)',
+  description: '유니버스레저(주) 이용약관',
 };
 
 export default function TermsOfServicePage() {
@@ -22,7 +22,7 @@ export default function TermsOfServicePage() {
               제1조 (목적)
             </h2>
             <p className="leading-relaxed text-navy-700">
-              본 약관은 제이투레저개발 주식회사(이하 &quot;회사&quot;)가
+              본 약관은 유니버스레저 주식회사(이하 &quot;회사&quot;)가
               운영하는 홈페이지(이하 &quot;사이트&quot;)의 이용과 관련하여
               회사와 이용자의 권리, 의무 및 책임사항 등 필요한 사항을
               규정함을 목적으로 합니다.

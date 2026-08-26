@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-col gap-1">
             <span className="text-base font-bold text-white">
-              제이투레저개발(주)
+              유니버스레저(주)
             </span>
             <span>
               인천광역시 연수구 인천타워대로 301, 더샵송도센텀하이브 B동 822호
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
         </div>
         <span className="border-t border-white/10 pt-4 text-white/40">
-          &copy; {year} JJ Leisure Development Co., Ltd. All rights reserved.
+          &copy; {year} Universe Leisure Co., Ltd. All rights reserved.
         </span>
       </div>
     </footer>

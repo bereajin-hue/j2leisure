@@ -21,7 +21,7 @@ export default function Header() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/logo/logo.png"
-            alt="제이투레저개발(주)"
+            alt="유니버스레저(주)"
             className="h-[72px] w-auto sm:h-[88px]"
           />
         </a>
