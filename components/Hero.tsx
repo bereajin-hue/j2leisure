@@ -37,7 +37,7 @@ export default function Hero() {
 
       <div className="relative mx-auto flex w-full max-w-5xl flex-col items-start gap-6">
         <span className="rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-sm font-medium tracking-wide text-white/80">
-          유니버스레저(주)
+          (주)유니버스레저
         </span>
 
         <h1 className="max-w-3xl break-keep text-2xl font-bold leading-tight sm:text-3xl md:text-4xl lg:text-5xl">

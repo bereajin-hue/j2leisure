@@ -3,8 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: '개인정보처리방침 | 유니버스레저(주)',
-  description: '유니버스레저(주) 개인정보처리방침',
+  title: '개인정보처리방침 | (주)유니버스레저',
+  description: '(주)유니버스레저 개인정보처리방침',
 };
 
 export default function PrivacyPolicyPage() {
@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
           개인정보처리방침
         </h1>
         <p className="mb-12 leading-relaxed text-navy-600">
-          유니버스레저 주식회사(이하 &quot;회사&quot;)는 「개인정보 보호법」
+          주식회사 유니버스레저(이하 &quot;회사&quot;)는 「개인정보 보호법」
           제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을
           신속하고 원활하게 처리하기 위하여 다음과 같이 개인정보처리방침을
           수립·공개합니다.
@@ -159,8 +159,8 @@ export default function PrivacyPolicyPage() {
               <p className="mb-1 font-semibold text-navy-900">
                 개인정보 보호책임자
               </p>
-              <p>성명 : 진민수</p>
-              <p>직책 : 대표</p>
+              <p>성명 : 정성훈</p>
+              <p>직책 : 대표이사</p>
               <p>이메일 : bereajin@gmail.com</p>
             </div>
             <p className="leading-relaxed text-navy-700">

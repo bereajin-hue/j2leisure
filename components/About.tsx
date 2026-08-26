@@ -20,7 +20,7 @@ export default function About() {
             회사소개
           </h2>
           <p className="text-base leading-loose text-navy-700 sm:text-lg">
-            유니버스레저(주)는 대한민국 관광·레저·유통 파트너를 위한
+            (주)유니버스레저는 대한민국 관광·레저·유통 파트너를 위한
             End-to-End 운영 솔루션을 제공합니다.
             <br />
             <br />

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-col gap-1">
             <span className="text-base font-bold text-white">
-              유니버스레저(주)
+              (주)유니버스레저
             </span>
             <span>
               인천광역시 연수구 인천타워대로 301, 더샵송도센텀하이브 B동 822호
