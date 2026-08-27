@@ -9,6 +9,7 @@ export default function Footer() {
             <span className="text-base font-bold text-white">
               (주)유니버스레저
             </span>
+            <span>대표 : 정성훈 · 사업자번호 : 153-88-03686</span>
             <span>
               인천광역시 연수구 인천타워대로 301, 더샵송도센텀하이브 B동 822호
             </span>
